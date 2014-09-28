@@ -1,0 +1,6 @@
+D:\ПРОГРАМИСТ\JS Applications\Underscore-HM\Underscore-HM\bin\Underscore-HM.dll.config
+D:\ПРОГРАМИСТ\JS Applications\Underscore-HM\Underscore-HM\bin\Underscore-HM.dll
+D:\ПРОГРАМИСТ\JS Applications\Underscore-HM\Underscore-HM\bin\Underscore-HM.pdb
+D:\ПРОГРАМИСТ\JS Applications\Underscore-HM\Underscore-HM\obj\Debug\Underscore-HM.csprojResolveAssemblyReference.cache
+D:\ПРОГРАМИСТ\JS Applications\Underscore-HM\Underscore-HM\obj\Debug\Underscore-HM.dll
+D:\ПРОГРАМИСТ\JS Applications\Underscore-HM\Underscore-HM\obj\Debug\Underscore-HM.pdb

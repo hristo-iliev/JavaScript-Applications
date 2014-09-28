@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Game</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body onload="main()">
+    <div id="wrapper">
+        <div id="field">
+            <p><b>Enter Your Guess</b></p><br />
+            <input type="text" class="nums" id="one" />
+            <input type="text" class="nums" id="two" />
+            <input type="text" class="nums" id="three" />
+            <input type="text" class="nums" id="four" /> <br />
+
+            <button id="submit">Go!</button><br />
+            <button id="new" onclick="main()">New Game</button><br />
+            <button onclick="onClearStorageButtonClick()">Clear High Scores</button>
+            <br />
+            <br />                       
+            <h2>Info</h2>
+            <span class="guess" style="background-color:chartreuse">&#9787;</span><span class="info">
+                &#10140; A digit is contained in the secret combination
+                and it is on the same position
+            </span><br /><br />
+            <span class="guess" style="background-color:goldenrod">&#9786;</span><span class="info">
+                &#10140; A digit is contained in the secret combination
+                but it is not the same position
+            </span><br /><br />
+            <span class="guess" style="background-color:firebrick">&#9785;</span><span class="info">
+                &#10140; The secret combination does't contain a digit
+            </span><br /><br />
+            <span class="info"> &#10070; You can show/hide your turn by clicking on it's Title!</span><br /><br />
+            <span class="info"> &#10070; Digits CAN be repeated</span>
+        </div>
+
+        <table id="game">
+            <thead>
+                <tr>
+                    <th colspan="4">The Secret Combination</th>
+                </tr>
+                <tr>
+                    <th class="secret">&#10006;</th>
+                    <th class="secret">&#10006;</th>
+                    <th class="secret">&#10006;</th>
+                    <th class="secret">&#10006;</th>
+                </tr>
+            </thead>
+            <tbody class="great">
+                
+            </tbody>
+        </table>
+        <table id="hs">
+            <tr>
+                <th colspan="2">High Score List</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+            <tbody id="high">
+
+            </tbody>
+        </table>
+        <div id="local" class="hide">
+            <span class="marg"> Enter Your Name</span><br />
+            <input type="text" class="tb-key" id="tb-key" value="" /> <br />
+            <span class="marg"> Your Score</span><br />
+            <input type="text" class="tb-key" id="value-text" disabled/><br />
+            <button onclick="onSaveButtonClick()">Save</button>            
+            
+        </div>
+    </div>
+    <script src="JavaScript.js"></script>    
+</body>
+</html>

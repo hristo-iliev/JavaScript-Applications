@@ -1,0 +1,128 @@
+﻿body {
+    font-family:'Comic Sans MS', cursive;
+}
+
+#game {
+    position:absolute;
+    top:20px;
+    left:500px;
+    border:2px solid black;
+    background-color:rgba(95, 233, 224, 0.66);
+    box-shadow: 1px 1px 8px #0b9fd1;
+}
+
+#local {
+    border:2px solid black;
+    background-color:white;
+    width:300px;
+    position:absolute;
+    left:400px;
+    top:200px;
+    box-shadow: 5px 5px 30px black;
+    padding-left:115px;
+}
+
+#hs{
+    float:right;
+    width:300px;
+    padding:0;
+    margin:0;
+}
+
+#field {
+    width:400px;
+    float:left;
+}
+
+span.marg{
+    display:inline-block;
+    margin-left:10px;
+    font-size:18px;
+}
+
+
+p {
+    margin-bottom:-5px;
+    margin-left:25px;
+}
+
+input.tb-key {
+    border:1px solid black;
+    margin-left:10px;
+    width:150px;
+    height:30px;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Comic Sans MS', cursive;
+}
+
+input{
+    margin-top:0;
+    border:2px solid black;
+    width:35px;
+    height:30px;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Comic Sans MS', cursive;
+}
+
+h2 {
+    text-decoration:underline;
+    margin-bottom:5px;
+}
+
+.hide {
+    display:none;
+}
+
+.secret {
+    text-shadow: 1px 1px 8px #ff0000;
+    font-size:30px;
+}
+
+th, td {
+    border:2px solid black;
+    width:35px;
+    height:30px;
+    font-size:20px;
+    font-family:'Comic Sans MS', cursive;
+    text-align:center;
+    font-weight:bold;
+    text-shadow: 1px 1px 10px #555454;
+}
+
+th.turn {
+    font-size:18px;
+    height:15px;
+    padding:0;
+}
+
+th.turn:hover{
+    background-color:#6fb6a9;
+}
+
+button {
+    width:168px;
+    font-weight:bold;
+}
+
+.guess {
+    display:inline-block;
+    padding-top:-5px;
+    padding-bottom:5px;
+    border:2px solid black;
+    width:35px;
+    height:30px;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.info {
+    vertical-align:super;
+    font-weight:bold;
+    font-size:18px;
+    
+}

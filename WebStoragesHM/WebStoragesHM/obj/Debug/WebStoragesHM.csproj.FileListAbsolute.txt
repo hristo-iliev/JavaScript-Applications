@@ -1,0 +1,6 @@
+D:\ПРОГРАМИСТ\JS Applications\WebStoragesHM\WebStoragesHM\bin\WebStoragesHM.dll.config
+D:\ПРОГРАМИСТ\JS Applications\WebStoragesHM\WebStoragesHM\bin\WebStoragesHM.dll
+D:\ПРОГРАМИСТ\JS Applications\WebStoragesHM\WebStoragesHM\bin\WebStoragesHM.pdb
+D:\ПРОГРАМИСТ\JS Applications\WebStoragesHM\WebStoragesHM\obj\Debug\WebStoragesHM.csprojResolveAssemblyReference.cache
+D:\ПРОГРАМИСТ\JS Applications\WebStoragesHM\WebStoragesHM\obj\Debug\WebStoragesHM.dll
+D:\ПРОГРАМИСТ\JS Applications\WebStoragesHM\WebStoragesHM\obj\Debug\WebStoragesHM.pdb
